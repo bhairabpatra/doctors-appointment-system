@@ -1,4 +1,5 @@
-package com.docker.example.Docker.model;
+package com.doctor.appointment.system.app.model;
+
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -15,8 +16,8 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-@Table(name = "patient_tbl")
-public class PatientModel {
+@Table(name = "doctor_tbl")
+public class DoctorModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -26,16 +27,18 @@ public class PatientModel {
     private String email;
     private String gender;
     private String phone;
-    private String specializationType;
-    private String doctor_name;
+    private String description;
+    private String experience;
+    private String specialization;
+    private String password;
+    private String city;
+    private String profileUrl;
     private int fee;
+    private String availability;
     private String address;
-    private String token_number;
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "doctor_id", referencedColumnName = "id")
-    private DoctorModel doctorModel;
     @CreationTimestamp
     private LocalDateTime createdAt;
     @UpdateTimestamp
     private LocalDateTime updatedAt;
+
 }

@@ -1,13 +1,13 @@
-package com.docker.example.Docker;
+package com.doctor.appointment.system.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DockerApplication {
+public class DoctorApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DockerApplication.class, args);
+		SpringApplication.run(DoctorApplication.class, args);
 	}
 
 }

@@ -1,6 +1,6 @@
-package com.docker.example.Docker.repository;
+package com.doctor.appointment.system.app.repository;
 
-import com.docker.example.Docker.model.PatientModel;
+import com.doctor.appointment.system.app.model.PatientModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

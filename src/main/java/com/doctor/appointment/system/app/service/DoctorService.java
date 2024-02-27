@@ -1,7 +1,7 @@
-package com.docker.example.Docker.service;
+package com.doctor.appointment.system.app.service;
 
 
-import com.docker.example.Docker.model.DoctorModel;
+import com.doctor.appointment.system.app.model.DoctorModel;
 
 import java.util.List;
 
@@ -14,5 +14,5 @@ public interface DoctorService {
 
     List<String> getSpecializationDoctor(String specialization);
 
-
+    List<DoctorModel> getSearchDoctors(String specializationOrName);
 }

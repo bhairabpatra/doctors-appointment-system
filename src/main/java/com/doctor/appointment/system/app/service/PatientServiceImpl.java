@@ -1,7 +1,7 @@
-package com.docker.example.Docker.service;
+package com.doctor.appointment.system.app.service;
 
-import com.docker.example.Docker.model.PatientModel;
-import com.docker.example.Docker.repository.PatientRepository;
+import com.doctor.appointment.system.app.model.PatientModel;
+import com.doctor.appointment.system.app.repository.PatientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

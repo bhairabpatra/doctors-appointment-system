@@ -1,4 +1,4 @@
-package com.docker.example.Docker;
+package com.doctor.appointment.system.app;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
