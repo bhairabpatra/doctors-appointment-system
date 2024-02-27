@@ -1,6 +1,4 @@
 package com.doctor.appointment.system.app.controller;
-
-
 import com.doctor.appointment.system.app.model.PatientModel;
 import com.doctor.appointment.system.app.service.PatientService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,6 +25,4 @@ public class PatientsController {
         PatientModel patient = patientService.getPatientByPhone(phone);
         return new ResponseEntity<>(patient, HttpStatus.OK);
     }
-
-
 }
