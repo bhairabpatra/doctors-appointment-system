@@ -1,0 +1,52 @@
+$backgroundlogo-bg-color: #f8d9e1;
+
+$button-color: #54bff5;
+$button-bg-color: #fff;
+
+.specialistlogo1 {
+  height: 100px;
+  width: 100px;
+  border: none;
+  background-color: $backgroundlogo-bg-color;
+  border-radius: 50%;
+ margin-left: 11px;
+
+}
+.specialist{
+    margin-top: 30px;
+}
+.specialist-heading{
+    display: flex;
+    
+}
+.s-button {
+    
+}
+.s-button button{
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: $button-bg-color;
+    padding: 5px 15px;
+   
+
+}
+.specialist-body{
+    margin-top: 25px;
+}
+.gynace {
+  padding: 20px;
+  box-shadow: 5px 5px 5px rgb(221, 221, 222);
+}
+.specialist-desc{
+    text-align: center;
+    padding-top: 15px;
+}
+.specialist-contact-btn button {
+  border: none;
+  color: $button-color;
+  background-color: $button-bg-color;
+}
+.specialist-contact-btn {
+  text-align: center;
+  
+}

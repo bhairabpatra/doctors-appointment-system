@@ -1,0 +1,41 @@
+$banner-bg-color: #f8dde0;
+$button-bg-color: #52acf6;
+$button-color: #f7f9fa;
+.banner {
+  padding: 60px 15px 0px 15px;
+  background-color: $banner-bg-color;
+  position: relative;
+ margin-top: 0%;
+ 
+}
+
+.banneer-img1 {
+  height: auto;
+  width: 100%;
+}
+.banner-text {
+  position: absolute;
+  top: 20%;
+  right: 3%;
+  font-size: 20px;
+}
+.icons {
+  padding-top: 40px;
+}
+
+.icons li {
+  display: inline-block;
+  margin-right: 10px;
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: $button-color;
+}
+.banner-text button {
+  border: 0px;
+  background-color: $button-bg-color;
+  color: $button-color;
+  border-radius: 5px;
+  padding: 12px 25px;
+  font-size: 20px;
+}
