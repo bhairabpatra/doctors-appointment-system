@@ -1,29 +1,28 @@
 $button-bg-color: #fff;
-$background-bg-color:#f2efef;
+$background-bg-color: #f2efef;
 $button-color: #54bff5;
 
-.health-problems{
-    background-color: $background-bg-color;
-    margin: 35px;
-    padding: 35px;
+.health-problems {
+  background-color: $background-bg-color;
+  margin: 35px;
+  padding: 35px;
 }
-.problems{
-    background-color: $button-bg-color;
+.problems {
+  background-color: $button-bg-color;
 }
 .problems {
   margin-top: 30px;
-  border: none ;
+  border: none;
   border-radius: 5px;
   box-shadow: 5px 5px 5px rgb(198, 198, 200);
 }
-.problems-logo{
-    overflow:hidden;
-} 
+.problems-logo {
+  overflow: hidden;
+}
 .problemslogo1 {
   height: 195px;
   width: 100%;
-  overflow:hidden;
- 
+  overflow: hidden;
 }
 .common-health-button button {
   border-radius: 5px;
@@ -31,19 +30,19 @@ $button-color: #54bff5;
   background-color: $button-bg-color;
   padding: 5px 15px;
 }
-.common-health-body{
-    margin-bottom: 35px;
+.common-health-body {
+  margin-bottom: 35px;
 }
-.problems-desc{
-    text-align: left;
-    padding:15px 0px 0px 15px;
+.problems-desc {
+  text-align: left;
+  padding: 15px 0px 0px 15px;
 }
-.problems-contact-btn button{
-    border: 1px #54bff5;
-    color: $button-color;
-    text-align: center;
-    background-color: $button-bg-color;
+.problems-contact-btn button {
+  border: 1px #54bff5;
+  color: $button-color;
+  text-align: center;
+  background-color: $button-bg-color;
 }
-.problems-contact-btn{
-    padding: 15px;
+.problems-contact-btn {
+  padding: 15px;
 }
