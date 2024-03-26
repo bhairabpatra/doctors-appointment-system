@@ -1,0 +1,90 @@
+$sbanner-bg-color: #3657f8;
+
+$text-color: #f7f9fa;
+$backgroundlogo-bg-color: #f8d9e1;
+.surgeries-banner {
+  padding: 60px 5px 0px 5px;
+  background-color: $sbanner-bg-color;
+  position: relative;
+  height: 100%;
+  width: auto;
+  margin: 10px 35px 10px 35px;
+  border-radius: 50px;
+}
+.surgeries-banneer-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.surgeries-bannerimg1 {
+  height: auto;
+  width: 100%;
+}
+.surgeries-banner-text {
+  position: absolute;
+  top: 20%;
+  right: 2%;
+  font-size: 30px;
+  color: $text-color;
+}
+.surgeries-banner-text p {
+  font-size: 20px;
+}
+.icons {
+  padding-top: 40px;
+}
+
+.icons li {
+  display: inline-block;
+  margin-right: 10px;
+  border: 1px solid $text-color;
+  padding: 8px 20px;
+  border-radius: 10px;
+  background-color: $sbanner-bg-color;
+  color: $text-color;
+}
+/*sdfghj*/
+.spopular-surgeries-problems {
+  height: 500px;
+  width: 550px;
+  border: 2px solid black;
+  display: grid;
+  grid-template-rows: 133px 133px 133px;
+  grid-template-columns: 133px 133px 133px;
+}
+.surgeries-problems {
+  height: 100px;
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.surgeries-problems-logo1 {
+  height: 90px;
+  width: 100px;
+  border: none;
+  background-color: $backgroundlogo-bg-color;
+  border-radius: 50%;
+}
+.popular-surgeries-body {
+  padding: 30px;
+  margin-top: 40px;
+}
+.urgeries-problems-logo-heading p {
+}
+
+/* registration */
+.contact {
+  text-align: center;
+  text-decoration: none;
+  
+  border: 1px solid $sbanner-bg-color;
+  padding: 18px 25px;
+  border-radius: 10px;
+  color: $sbanner-bg-color;
+}
+.booking-consultation-heading {
+  text-align: center;
+}
+.btn-desc {
+  text-align: center;
+}

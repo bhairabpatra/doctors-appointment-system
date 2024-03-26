@@ -2,18 +2,22 @@ $backgroundlogo-bg-color: #f8d9e1;
 
 $button-color: #54bff5;
 $button-bg-color: #fff;
-
+.specialist-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .specialistlogo1 {
   height: 100px;
   width: 100px;
   border: none;
   background-color: $backgroundlogo-bg-color;
   border-radius: 50%;
- margin-left: 11px;
+ 
 
 }
 .specialist{
-    margin-top: 30px;
+    margin: 50px;
 }
 .specialist-heading{
     display: flex;
@@ -31,7 +35,7 @@ $button-bg-color: #fff;
 
 }
 .specialist-body{
-    margin-top: 25px;
+    margin-top: 20px;
 }
 .gynace {
   padding: 20px;
