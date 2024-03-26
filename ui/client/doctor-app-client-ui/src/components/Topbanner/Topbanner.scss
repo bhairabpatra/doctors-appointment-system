@@ -1,14 +1,18 @@
-$banner-bg-color: #f8dde0;
+$tbanner-bg-color: #f8dde0;
 $button-bg-color: #52acf6;
-$button-color: #f7f9fa;
+$bannerbutton-color: #f7f9fa;
 .banner {
   padding: 60px 15px 0px 15px;
-  background-color: $banner-bg-color;
+  background-color: $tbanner-bg-color;
   position: relative;
- margin-top: 0%;
+ margin: -10px;
  
 }
-
+.banneer-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .banneer-img1 {
   height: auto;
   width: 100%;
@@ -29,12 +33,12 @@ $button-color: #f7f9fa;
   border: 1px solid black;
   padding: 5px 10px;
   border-radius: 10px;
-  background-color: $button-color;
+  background-color: $bannerbutton-color;
 }
 .banner-text button {
   border: 0px;
   background-color: $button-bg-color;
-  color: $button-color;
+  color: $bannerbutton-color;
   border-radius: 5px;
   padding: 12px 25px;
   font-size: 20px;
